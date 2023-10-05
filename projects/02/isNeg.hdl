@@ -1,0 +1,14 @@
+// This file is part of www.nand2tetris.org
+// and the book "The Elements of Computing Systems"
+// by Nisan and Schocken, MIT Press.
+
+
+
+
+CHIP isNeg {
+    IN in[16];
+    OUT out;
+
+    PARTS:
+	Or(a=in[15], b=in[15], out=out);
+}
